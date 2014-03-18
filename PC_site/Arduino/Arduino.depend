@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1395174624 source:c:\users\ratan\documents\github\arduino\pc_site\arduino\main.cpp
+	<iostream>
+	<Serial.h>
+
+1390691657 c:\users\ratan\documents\github\arduino\pc_site\arduino\libusb\include\libusb-1.0\libusb.h
+	<stdint.h>
+	<sys/types.h>
+	<sys/time.h>
+	<time.h>
+	<limits.h>
+	<windows.h>
+	<winsock.h>
+
+1395174258 source:c:\users\ratan\documents\github\arduino\pc_site\arduino\src\serial.cpp
+	"Serial.h"
+
+1395174138 c:\users\ratan\documents\github\arduino\pc_site\arduino\include\serial.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+

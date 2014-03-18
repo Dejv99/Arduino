@@ -32,10 +32,7 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Linker>
-			<Add library="gdi32" />
-			<Add library="user32" />
-			<Add library="kernel32" />
-			<Add library="comctl32" />
+			<Add option="-lusb-1.0" />
 		</Linker>
 		<Unit filename="main.cpp" />
 		<Extensions>
