@@ -1,7 +1,8 @@
 # depslib dependency file v1.0
-1395174624 source:c:\users\ratan\documents\github\arduino\pc_site\arduino\main.cpp
+1395701504 source:c:\users\ratan\documents\github\arduino\pc_site\arduino\main.cpp
 	<iostream>
 	<Serial.h>
+	<conio.h>
 
 1390691657 c:\users\ratan\documents\github\arduino\pc_site\arduino\libusb\include\libusb-1.0\libusb.h
 	<stdint.h>
@@ -12,11 +13,14 @@
 	<windows.h>
 	<winsock.h>
 
-1395174258 source:c:\users\ratan\documents\github\arduino\pc_site\arduino\src\serial.cpp
+1395701533 source:c:\users\ratan\documents\github\arduino\pc_site\arduino\src\serial.cpp
 	"Serial.h"
 
-1395174138 c:\users\ratan\documents\github\arduino\pc_site\arduino\include\serial.h
+1395731309 c:\users\ratan\documents\github\arduino\pc_site\arduino\include\serial.h
 	<windows.h>
 	<stdio.h>
 	<stdlib.h>
+	<string>
+	<cstring>
+	<iostream>
 

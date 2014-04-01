@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -34,7 +36,12 @@
 		<Linker>
 			<Add option="-lusb-1.0" />
 		</Linker>
+		<Unit filename="cache_main.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/Serial.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Serial.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
